@@ -16,17 +16,11 @@ public class CountryResponse {
         this.countryName = countryName;
     }
 
-    public String getCapitalName() {
-        return capitalName;
-    }
 
     public void setCapitalName(String capitalName) {
         this.capitalName = capitalName;
     }
 
-    public String getIndependenceDate() {
-        return independenceDate;
-    }
 
     public void setIndependenceDate(String independenceDate) {
         this.independenceDate = independenceDate;
@@ -42,17 +36,5 @@ public class CountryResponse {
 
     public void setDayssOfIndependency(int dayssOfIndependency) {
         this.dayssOfIndependency = dayssOfIndependency;
-    }
-
-    public int getYearsOfIndependency() {
-        return yearsOfIndependency;
-    }
-
-    public int getMonthsOfIndependency() {
-        return monthsOfIndependency;
-    }
-
-    public int getDayssOfIndependency() {
-        return dayssOfIndependency;
     }
 }
